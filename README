@@ -1,0 +1,78 @@
+perl-IO-stringy
+-------------------------------------------
+This toolkit primarily provides modules for performing both traditional 
+and object-oriented i/o on things other than normal filehandles; in 
+particular, IO::Scalar, IO::ScalarArray, and IO::Lines.
+
+Runtime requirements:
+  cygwin-1.5.19-4
+  perl-5.8.7-5
+
+Build requirements:
+  cygwin-1.5.19-4
+  cygport-0.1.92-1
+  make-3.80-1
+  perl-5.8.7-5
+
+Canonical homepage:
+  http://search.cpan.org/~eryq/IO-stringy/
+
+Canonical download:
+  http://www.cpan.org/authors/id/E/ER/ERYQ/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-IO-stringy-2.110-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-IO-stringy-2.110-X.cygport all
+
+This will create:
+  /usr/src/perl-IO-stringy-2.110-X-src.tar.bz2
+  /usr/src/perl-IO-stringy-2.110-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/perl-IO-stringy.sh
+  /usr/lib/perl5/vendor_perl/5.8/IO/AtomicFile.pm
+  /usr/lib/perl5/vendor_perl/5.8/IO/InnerFile.pm
+  /usr/lib/perl5/vendor_perl/5.8/IO/Lines.pm
+  /usr/lib/perl5/vendor_perl/5.8/IO/Scalar.pm
+  /usr/lib/perl5/vendor_perl/5.8/IO/ScalarArray.pm
+  /usr/lib/perl5/vendor_perl/5.8/IO/Stringy.pm
+  /usr/lib/perl5/vendor_perl/5.8/IO/Wrap.pm
+  /usr/lib/perl5/vendor_perl/5.8/IO/WrapTie.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/IO/Stringy/.packlist
+  /usr/share/doc/Cygwin/perl-IO-stringy-2.110.README
+  /usr/share/doc/perl-IO-stringy-2.110/COPYING
+  /usr/share/doc/perl-IO-stringy-2.110/README
+  /usr/share/man/man3/IO.AtomicFile.3pm.gz
+  /usr/share/man/man3/IO.InnerFile.3pm.gz
+  /usr/share/man/man3/IO.Lines.3pm.gz
+  /usr/share/man/man3/IO.Scalar.3pm.gz
+  /usr/share/man/man3/IO.ScalarArray.3pm.gz
+  /usr/share/man/man3/IO.Stringy.3pm.gz
+  /usr/share/man/man3/IO.Wrap.3pm.gz
+  /usr/share/man/man3/IO.WrapTie.3pm.gz
+  /usr/share/perl/cygwin-pods/5.8/IO-stringy.pod
+
+------------------
+
+Port Notes:
+
+----- version 2.110-1 -----
+Version bump.
+
+----- version 2.109-2 -----
+Rebuilt for perl-5.8.6 with a new build script.
+
+----- version 2.109-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
