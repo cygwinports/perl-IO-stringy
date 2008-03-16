@@ -5,14 +5,12 @@ and object-oriented i/o on things other than normal filehandles; in
 particular, IO::Scalar, IO::ScalarArray, and IO::Lines.
 
 Runtime requirements:
-  cygwin-1.5.19-4
-  perl-5.8.7-5
+  perl-5.10.0-3
 
 Build requirements:
-  cygwin-1.5.19-4
-  cygport-0.1.92-1
-  make-3.80-1
-  perl-5.8.7-5
+  cygwin-1.5.25-7
+  cygport-0.3.9-1
+  make-3.81-1
 
 Canonical homepage:
   http://search.cpan.org/~eryq/IO-stringy/
@@ -37,17 +35,15 @@ This will create:
 
 Files included in the binary package:
 
-  /etc/postinstall/perl-IO-stringy.sh
-  /usr/lib/perl5/vendor_perl/5.8/IO/AtomicFile.pm
-  /usr/lib/perl5/vendor_perl/5.8/IO/InnerFile.pm
-  /usr/lib/perl5/vendor_perl/5.8/IO/Lines.pm
-  /usr/lib/perl5/vendor_perl/5.8/IO/Scalar.pm
-  /usr/lib/perl5/vendor_perl/5.8/IO/ScalarArray.pm
-  /usr/lib/perl5/vendor_perl/5.8/IO/Stringy.pm
-  /usr/lib/perl5/vendor_perl/5.8/IO/Wrap.pm
-  /usr/lib/perl5/vendor_perl/5.8/IO/WrapTie.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/IO/Stringy/.packlist
-  /usr/share/doc/Cygwin/perl-IO-stringy-2.110.README
+  /usr/lib/perl5/vendor_perl/5.10/IO/AtomicFile.pm
+  /usr/lib/perl5/vendor_perl/5.10/IO/InnerFile.pm
+  /usr/lib/perl5/vendor_perl/5.10/IO/Lines.pm
+  /usr/lib/perl5/vendor_perl/5.10/IO/Scalar.pm
+  /usr/lib/perl5/vendor_perl/5.10/IO/ScalarArray.pm
+  /usr/lib/perl5/vendor_perl/5.10/IO/Stringy.pm
+  /usr/lib/perl5/vendor_perl/5.10/IO/Wrap.pm
+  /usr/lib/perl5/vendor_perl/5.10/IO/WrapTie.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/IO/Stringy/.packlist
   /usr/share/doc/perl-IO-stringy-2.110/COPYING
   /usr/share/doc/perl-IO-stringy-2.110/README
   /usr/share/man/man3/IO.AtomicFile.3pm.gz
@@ -58,11 +54,13 @@ Files included in the binary package:
   /usr/share/man/man3/IO.Stringy.3pm.gz
   /usr/share/man/man3/IO.Wrap.3pm.gz
   /usr/share/man/man3/IO.WrapTie.3pm.gz
-  /usr/share/perl/cygwin-pods/5.8/IO-stringy.pod
 
 ------------------
 
 Port Notes:
+
+----- version 2.110-2 -----
+Rebuilt for perl-5.10.
 
 ----- version 2.110-1 -----
 Version bump.
