@@ -2,10 +2,12 @@ CPAN_AUTHOR=dskoll
 inherit perl
 
 NAME="perl-IO-stringy"
-VERSION=2.110
-RELEASE=4
+VERSION=2.111
+RELEASE=1
 CATEGORY="Perl"
 SUMMARY="Perl module for I/O on in-core objects like strings and arrays"
 DESCRIPTION="This toolkit primarily provides modules for performing both
 traditional and object-oriented I/O on things other than normal filehandles;
 in particular, IO-Scalar, IO-ScalarArray, and IO-Lines."
+
+ARCH=noarch
